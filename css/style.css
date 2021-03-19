@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+/*Banner*/ 
+/*../img/banner-bg.png*/
+
+.banner {
+    background: url(../img/banner-top-bg.png) center no-repeat;
+    background-size: cover;
+    height: 10vh;
+    padding-top: 10rem;
+    text-align: center;
+    color:white;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.banner_principal {
+    background: url(../img/banner-carol-bg.png) center no-repeat;
+    background-size: cover;
+    height: 1vh;
+    padding-top: 10rem;
+    text-align: center;
+    color:white;
+}*/
+
+/*.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+}*/
+
+.banner__titulo {
+    font-size: 4rem;
+}
+
+.banner_subtitulo {
+    font-size: 1.3rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: beige;
+    text-decoration: none;
+}
+
+/* Sobre Container */
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 40%;
+}
+
+.sobre__titulo {
+    font-size: 2rem;
+    color: #c4c4c4;
+    text-align: center;
+}
+
+.btn-roxo {
+    color: #7E459B;
+    text-align: left;
+    border: 1px solid #7E459B;
+    text-decoration: none;
+}
